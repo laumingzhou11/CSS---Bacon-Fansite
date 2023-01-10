@@ -1,0 +1,24 @@
+/*****tag selector*****/
+h1 {
+    color: red; 
+    font-size: 200px;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/*****class selector (group of related Item) (override tag selector)*****/
+
+.bacon {
+    background-color: green;
+}
+
+.circular {
+    border-radius: 100%;
+}
+/*****id selector (single element(unique) (override tag selector))*****/
+
+#heading {
+      color: blue;
+}
